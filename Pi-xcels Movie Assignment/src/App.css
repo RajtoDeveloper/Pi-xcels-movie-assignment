@@ -1,6 +1,9 @@
 .App {
   font-family: Arial, sans-serif;
   padding: 20px;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
 }
 
 .movies-grid {
@@ -10,15 +13,18 @@
 }
 
 .movie-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  background-color:#808080;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 12px;
   padding: 15px;
   cursor: pointer;
-  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
 }
 
 .movie-card:hover {
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
 }
 
 button {
@@ -26,4 +32,13 @@ button {
   padding: 8px 16px;
   font-size: 16px;
   cursor: pointer;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff3333;
 }
