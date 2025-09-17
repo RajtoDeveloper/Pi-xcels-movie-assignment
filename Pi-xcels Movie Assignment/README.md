@@ -34,7 +34,7 @@ git clone <repo-link>
 
 npm install
 Run in development mode:
-npm run development
+npm start
 
 Open your browser at:http://localhost:3000
 
