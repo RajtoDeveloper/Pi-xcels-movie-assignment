@@ -21,8 +21,8 @@ This is a **full-stack web application** that displays a list of movies and deta
 - `GET /api/movies/:id` → Get details of a single movie by ID  
 
 ## Technical Details
-- **Frontend:** React, HTML, CSS (responsive design)  
-- **Backend:** Node.js, Express  
+- **Frontend:** React 
+- **Backend:** Node.js 
 - **Data:** `movies_metadata.json`  
 
 ## How to Run
